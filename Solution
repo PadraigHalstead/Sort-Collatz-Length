@@ -28,17 +28,17 @@ public class Solution
             {
                 if(w % 2 == 0)
                 {
-                   length++;
+                   
                     w = w / 2;
                     
                 }
                 else
                 {
-                    length++;
+                    
                     w = 3*w +1;
                     
                 }  
-                
+                length++;
             }
             
         } 
